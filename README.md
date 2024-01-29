@@ -1,12 +1,15 @@
 # disable-kernel-dma-protection
 
 method 1:
+
 if you have an option in your BIOS to disable kernel dma protection, or if thats not an option maybe vt-d, or whatever virtualization you have will be there, disable that instead of doing these other methods. these methods are for people who truely don't have a option in their bios or don't have access to their bios
 
 method 2:
+
 downgrade to a windows version before 1803 (the version before that is 1709), 1803 was when kernel dma protection was added
 
 method 3:
+
 disabling virtualization based security (what includes kernel DMA protection) by corrupting the DMAR ACPI table
 
 before we get started, you should double check everything about your computer to find if theres a way to disable vt-x or whatever virtualization you have
